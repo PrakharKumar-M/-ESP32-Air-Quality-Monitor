@@ -1,0 +1,44 @@
+.status-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px;
+    border-bottom:1px solid #ddd;
+    font-size:18px;
+}
+
+.status-on{
+    font-weight:bold;
+}
+
+.green{
+    color:green;
+}
+
+.red{
+    color:red;
+}
+
+.status-off{
+    color:gray;
+}
+
+.blink{
+    animation:blink 0.8s infinite;
+}
+
+@keyframes blink{
+
+0%{
+opacity:1;
+}
+
+50%{
+opacity:0.2;
+}
+
+100%{
+opacity:1;
+}
+
+}

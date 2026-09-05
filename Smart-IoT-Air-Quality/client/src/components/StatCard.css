@@ -1,0 +1,17 @@
+.stat-card{
+    border:none;
+    border-radius:18px;
+    transition:0.3s;
+}
+
+.stat-card:hover{
+    transform:translateY(-8px);
+}
+
+.stat-card h6{
+    color:#666;
+}
+
+.stat-card h2{
+    font-weight:bold;
+}
